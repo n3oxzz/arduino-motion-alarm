@@ -2,10 +2,20 @@
 ### Final Project — Physics 11
 
 ## Scope & Purpose
-I developed a motion alarm system on Arduino using sensor MPU-6050. This sensor incorporates 3-axis gyroscope and accelerometer, allowing to calculate the angle. Using complementrary filtering the data is being polished and later used to activate the alarm. The system is taped to the door (at 0 degrees angle), and at the moment when the door opens and reaches angle of 5 degrees the active buzzer turns on.
+This project is a motion alarm system built on Arduino using the MPU-6050 sensor.  
+The MPU-6050 includes a 3-axis gyroscope and accelerometer, allowing the system to calculate angular motion.  
+A complementary filter is used to smooth out the sensor data, and when a threshold angle of 5° is detected, an active buzzer is triggered.
+
+The system is designed to be mounted on a door (with a reference position of 0°). When the door opens and reaches 5°, the alarm is activated.
 
 ## Circuit Diagram
-![Curcuit](images/circuit-diagram(motion-alarm).png)
+![Circuit](images/circuit-diagram(motion-alarm).png)
 
+## Demo
+[Watch Demo](https://www.youtube.com/shorts/lRnNpZ3W_hQ)
 
-This project is licensed under the MIT License
+## Project Document
+[Project Document (PDF)](Final-Project-Doc.pdf)
+
+## License
+This project is licensed under the MIT License.
