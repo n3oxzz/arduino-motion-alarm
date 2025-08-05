@@ -49,17 +49,17 @@ void loop() {
   gyroAngleX *= 0.95; 
 }
 
-  // if (abs(finalAngle) > threshold) {
-  //  if(!isAlarmOn){
-  //   digitalWrite(buzzerPin, HIGH);
-  //   isAlarmOn = true;
-  //  }else{
-  //   if(isAlarmOn){
-  //     digitalWrite(buzzerPin, LOW);
-  //     isAlarmOn = false;
-  //   }
-  //  }
-  // }
+  if (abs(finalAngle) > threshold) {
+   if(!isAlarmOn){
+    digitalWrite(buzzerPin, HIGH);
+    isAlarmOn = true;
+   }else{
+    if(isAlarmOn){
+      digitalWrite(buzzerPin, LOW);
+      isAlarmOn = false;
+    }
+   }
+  }
 
 
   delay(10); 
