@@ -18,4 +18,4 @@ The system is designed to be mounted on a door (with a reference position of 0°
 [Project Document (PDF)](Final-Project-Doc.pdf)
 
 ## License
-[MIT](https://opensource.org/license/mit/)
+[MIT]([https://opensource.org/license/mit/](https://mit-license.org/))
